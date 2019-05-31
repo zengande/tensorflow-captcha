@@ -7,7 +7,7 @@
 ```
 python ./train_captcha.py [resume]
 ```
-resume: true 继续加载上次中断训练的模型继续训练
+PS: resume: true 加载上次中断训练的模型继续训练
 
 ## 测试
 使用 `python .\generate_captcha.py` 会在当前目录下生成一张测试的验证码图片
@@ -20,3 +20,5 @@ python predict_captcha.py 图片名称.jpg
 链接：[https://pan.baidu.com/s/1GmE3tq5m-psqH5o-yPK3sA](https://pan.baidu.com/s/1GmE3tq5m-psqH5o-yPK3sA)
 
 提取码：`aq35`
+
+将下载的压缩包解压放到根目录，得到 `model` 文件夹。
